@@ -1,0 +1,55 @@
+ .blok3 {
+    margin-top: 50px;
+    padding-top: 10px;
+    background: rgba(254, 251, 251, 0.6) url(../img/White.png);
+    background-blend-mode: lighten;
+    background-size: cover;
+    background-position: center;
+}
+h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 100;
+    font-family: "Kaushan Script"
+    
+}
+
+h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: Montserrat;
+}
+
+.container-fluid hr{
+    width: 80px;
+    height: 4px;
+    background-color: #f38181; 
+    border: none;
+    margin: 20px auto; 
+    margin-bottom: 50px;
+}
+
+
+.img-container{
+    margin-top: -25px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 590px;
+    overflow: visible;
+    margin-bottom: 100px;
+}
+.img-container img{
+    position: absolute;
+    max-width: 100%;
+}
+.blok3 .back{
+    z-index: 1;
+}
+.blok3 .front{
+    z-index: 2;
+    transform: translate(120%, 30%);
+}
