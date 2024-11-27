@@ -46,9 +46,11 @@ h2{
     position: absolute;
     max-width: 100%;
 }
+
 .blok3 .back{
     z-index: 1;
 }
+
 .blok3 .front{
     z-index: 2;
     transform: translate(120%, 30%);

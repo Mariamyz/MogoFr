@@ -1,0 +1,138 @@
+
+.block8-custom {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.block8-custom h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.block8-custom h2 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #111;
+    margin-bottom: 20px;
+}
+
+.block8-custom hr {
+    width: 50px;
+    height: 3px;
+    background-color:  #f38181;
+    margin: 0 auto 30px auto;
+    border: none;
+}
+
+.blog-photo-custom {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    flex-wrap: wrap; 
+}
+
+.blog-photo1-custom {
+    width: 100%;
+    max-width: 300px; 
+    text-align: center;
+    position: relative;
+    margin: 0 auto; 
+}
+
+.photo-custom {
+    position: relative;
+}
+
+.photo-custom img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; 
+    object-fit: cover;
+}
+
+.photo-custom .fon-custom {
+    width: 60px;
+    height: 70px;
+    background-color: #95e1d3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    z-index: 1; 
+    border-radius: 4px; 
+}
+
+.photo-custom .fon-custom h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+.photo-custom .fon-custom p {
+    font-size: 15px;
+    font-style: italic;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+.blog-photo1-custom h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 0;
+}
+
+.blog-photo1-custom p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #999999;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 20px;
+}
+
+.hr-blog-custom {
+    width: 100%;
+    height: 2px;
+    background-color: #e5e5e5;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.eyes-coment-custom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; 
+}
+
+.eyes-custom, .coment-custom {
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+}
+
+.eyes-custom img, .coment-custom img {
+    width: 20px;
+    height: 20px;
+}
+
+.eyes-custom p, .coment-custom p {
+    margin: 0;
+    font-size: 14px;
+    color: #999999;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}

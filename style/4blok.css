@@ -1,20 +1,129 @@
-
-.containerblok4  hr{
-    width: 80px;
-    height: 4px;
-    background-color: #f38181; 
-    border: none;
-    margin: 20px auto; 
-    margin-bottom: 50px;
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
+.image-section {
+    flex: 1;
+}
 
-.containerblok4 p{
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.info-table {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info-row {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.info-row:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-header {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.info-header:hover {
+    background-color: #f0f0f0;
+}
+
+.info-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.arrow {
+    font-size: 16px;
+    color: #888;
+}
+
+.info-content {
+    padding: 20px 25px;
     font-size: 14px;
     line-height: 1.6;
-    font-weight: 400;
-    color: rgb(150, 150, 150);
-    margin: 80px;
-    text-align: center;
+    color: #666;
+    display: none;
 }
-  
+
+.info-row:first-child .info-content {
+    display: block;
+}
+
+.unique-container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    max-width: 100%;
+    margin: 15px;
+}
+
+.unique-container .arrow-left,
+.unique-container .arrow-right {
+    font-size: 24px;
+    color: #999;
+    align-self: center; 
+}
+
+.unique-container img {
+    width: 90px;
+    height: 90px;
+    margin-right: 15px;
+}
+
+.unique-container .text-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+}
+
+.unique-container .quote {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.unique-container .hr-grey {
+    width: 50px;
+    height: 2px;
+    background-color: #f38181;
+    margin: 0;
+}
+
+.unique-container .name {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+}

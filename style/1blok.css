@@ -34,15 +34,14 @@
     margin-bottom: 40px;
     line-height: 1.8;
     font-family: Montserrat;
-    color: rgb(195, 193, 193);
+    color:  #888;
 }
 
 .image-gallery {
     display: flex;
     justify-content: center;
     gap: 20px;
-     
-   
+      
 }
 
 .image-wrapper {
@@ -85,6 +84,7 @@
 .image-wrapper:hover .image-overlay {
     opacity: 1; 
     background: linear-gradient(0deg, #f7e192 0%, rgba(244, 103, 162, 0.6) 100%); 
+
 }
 
 .image-overlay .icon {

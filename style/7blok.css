@@ -1,0 +1,101 @@
+
+.block7 {
+    background: rgba(255, 255, 255, 0.8) url('../img/mountain.png') no-repeat center center;
+    background-blend-mode: lighten; 
+    background-size: cover; 
+    background-position: center; 
+    padding: 30px 0; 
+    margin-bottom: 90px;
+    min-height: 400px; 
+}
+
+.container {
+    max-width: 960px; 
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+.container h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.container h2 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #111;
+    margin-bottom: 20px;
+}
+
+.container hr {
+    width: 50px;
+    height: 3px;
+    background-color:  #f38181;
+    margin: 0 auto 30px auto; 
+    border: none;
+}
+
+.custom-table {
+    width: 100%;
+    margin-top: 20px;
+    border-spacing: 20px; 
+}
+
+.custom-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+}
+
+.custom-cell {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+}
+.custom-cell img {
+    margin-bottom: 15px; 
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
+.custom-text h5 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: -10px;
+}
+
+.custom-text h6 {
+    font-size: 15px;
+    line-height: 24px;
+    color: #333333;
+    font-weight: 300;
+    font-style: italic;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 20px;
+}
+
+.custom-text p {
+    width: 100%;
+    max-width: 400px; 
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.custom-hr-small {
+    margin: 10px 0;
+    width: 50px;
+    height: 2px;
+    background-color: #ccc;
+    border: none;
+}

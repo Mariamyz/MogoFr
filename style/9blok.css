@@ -1,0 +1,35 @@
+.map-custom {
+    background: url(../img/Map.png);
+    background-blend-mode: lighten;
+    background-size: cover;
+    background-position: center;
+    height: 200px; 
+    margin-top: -5px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.open-map-custom .map-img-custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px; 
+}
+
+.open-map-custom img {
+    max-width: 60px; 
+    height: auto; 
+    margin-top: 0; 
+    margin-bottom: 10px; 
+}
+
+.open-map-custom h3 {
+    font-size: 22px; 
+    text-transform: uppercase;
+    color: #f38181;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin: 10px; 
+}

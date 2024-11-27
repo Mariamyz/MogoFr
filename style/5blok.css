@@ -1,0 +1,186 @@
+
+.team-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.team-title {
+    font-size: 25px;
+    font-weight: 400;
+    color:black;
+    margin-bottom: 10px;
+    font-family: "Kaushan Script", cursive;
+}
+
+.team-subtitle {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.team-divider {
+    width: 80px;
+    height: 4px;
+    background-color: #f38181;
+    margin: 20px auto;
+    border: none;
+}
+
+.team-description {
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 40px;
+}
+
+.team-img-block {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.team-member {
+    width: 300px;
+    text-align: center;
+    position: relative;
+}
+
+.team-photo-container {
+    position: relative;
+    width: 100%;
+    height: 390px;
+    overflow: visible;
+    border-radius: 8px;
+}
+
+.team-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 
+                0 16px 24px rgba(120, 212, 229, 0.5);
+    border-radius: 8px;
+}
+
+.team-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+}
+
+.team-photo-container:hover .team-photo {
+    opacity: 0.3;
+}
+
+.team-photo-container:hover .team-overlay {
+    opacity: 1;
+    background: linear-gradient(0deg, #f7e192 0%, rgba(244, 103, 162, 0.6) 100%);
+}
+
+.team-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.team-icon {
+    width: 36px;
+    height: 36px;
+    background-color: #fce38a;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    transition: transform 0.3s ease;
+}
+
+
+.team-icon:hover {
+    transform: scale(1.1);
+}
+
+.team-caption {
+    margin-top: 20px;
+}
+
+.team-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.team-role {
+    font-size: 14px;
+    font-style: italic;
+    color: #999;
+}
+
+
+.team-icons1 {
+    display: flex;
+    gap: 10px;
+}
+
+.team-icon1 {
+    width: 36px;
+    height: 36px;
+    background-color:#f38181;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    transition: transform 0.3s ease;
+}
+
+
+.team-icon1:hover {
+    transform: scale(1.1);
+}
+
+.team-title .h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 100;
+    font-family: "Kaushan Script"
+
+}
+
+.custom-full-container {
+    width: 100%; 
+    margin: 0;
+    padding: 0;
+}
+
+.custom-full-grey-line {
+    padding: 0;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-full-image-container {
+    margin: 2px; 
+    padding: 0;
+    width: 100%;
+}
+
+.custom-full-width-img {
+    width: 100%; 
+    max-height: 400px; 
+    height: 160px; 
+    display: block; 
+    border-radius: 8px; 
+    object-fit: cover; 
+}
